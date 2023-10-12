@@ -1,0 +1,36 @@
+<mxfile host="Electron" modified="2023-10-12T22:10:15.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="BZQRoyRfnOqstvpj6-K9" version="22.0.2" type="device">
+  <diagram name="페이지-1" id="fb7TPT-cGsN8IhFg-64O">
+    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oElSyquma-JcEwKlD5ym-1" value="BarBridge" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oElSyquma-JcEwKlD5ym-2" value="-&amp;nbsp; BarImplement usingBar&lt;br&gt;+ barValue{ set }&lt;br&gt;&lt;br&gt;+&amp;nbsp;BarBridge(BarImplement target)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="oElSyquma-JcEwKlD5ym-1">
+          <mxGeometry y="50" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oElSyquma-JcEwKlD5ym-5" value="BarImplement : MonoBehaviour" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oElSyquma-JcEwKlD5ym-6" value="# bool underZero, overOne&lt;br&gt;&lt;br&gt;+&amp;nbsp;SetBar(float value)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="oElSyquma-JcEwKlD5ym-5">
+          <mxGeometry y="50" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oElSyquma-JcEwKlD5ym-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=diamondThin;startFill=0;startSize=15;endArrow=none;endFill=0;" edge="1" parent="1" source="oElSyquma-JcEwKlD5ym-1" target="oElSyquma-JcEwKlD5ym-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oElSyquma-JcEwKlD5ym-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=10;" edge="1" parent="1" source="oElSyquma-JcEwKlD5ym-8" target="oElSyquma-JcEwKlD5ym-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oElSyquma-JcEwKlD5ym-8" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oElSyquma-JcEwKlD5ym-9" value="&amp;nbsp;-&amp;nbsp;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="oElSyquma-JcEwKlD5ym-8">
+          <mxGeometry y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
